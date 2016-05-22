@@ -1,0 +1,85 @@
+a, body {
+    color: #2d3c49;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+h1 {
+    font-size: 3.5em;
+}
+
+hr {
+    border: 1px solid #7d97ad;
+}
+
+.banner {
+    max-height: 350px;
+    overflow: hidden;
+}
+
+.feature-title {
+    padding-left: 15px;
+    color: #7d97ad;
+}
+
+.font-normal {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+.font-thick {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+.font-thin {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+}
+
+.portfolio-logo {
+    margin-top: 20px;
+    max-width: 100px;
+    max-height: 100px;
+}
+
+.portfolio-title {
+    text-align: right;
+}
+
+.project-title {
+    font-size: 2em;
+    text-transform: uppercase;
+    margin-top: 0.5em;
+    margin-bottom: 0;
+}
+
+@media screen and (max-width: 767px){
+    .portfolio-logo {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .portfolio-title {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 992px){
+    .banner {
+        max-height: 250px;
+        overflow: hidden;
+    }
+
+    .featured-work {
+        text-align: left;
+    }
+
+    .project-image {
+        margin-bottom: 1em;
+    }
+
+    .project-title {
+        margin-top: 0;
+    }
+}
