@@ -5,6 +5,12 @@ body {
     font-weight: 300;
 }
 
+a,
+button {
+    min-height: 48px;
+    min-width: 48px;
+}
+
 a {
     display: block;
 }
@@ -48,6 +54,10 @@ hr {
 
 .portfolio-title {
     text-align: right;
+}
+
+.project-title:hover, .project-image:hover {
+    cursor: pointer;
 }
 
 .project-title {
