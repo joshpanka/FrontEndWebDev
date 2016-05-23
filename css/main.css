@@ -1,15 +1,18 @@
-a, body {
-    color: #2d3c49;
-    font-family: 'Roboto', sans-serif;
+a,
+body {
+    color: #446844;
+    font-family: 'Kalam', cursive;
     font-weight: 300;
 }
+
+
 
 h1 {
     font-size: 3.5em;
 }
 
 hr {
-    border: 1px solid #7d97ad;
+    border: 1px solid #354635;
 }
 
 .banner {
@@ -19,28 +22,22 @@ hr {
 
 .feature-title {
     padding-left: 15px;
-    color: #7d97ad;
+    color: #8E8F8E;
 }
 
 .font-normal {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Kalam', cursive;
     font-weight: 300;
 }
 
 .font-thick {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Kalam', cursive;
     font-weight: 400;
 }
 
-.font-thin {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 100;
-}
-
 .portfolio-logo {
-    margin-top: 20px;
-    max-width: 100px;
-    max-height: 100px;
+    max-width: 150px;
+    max-height: 150px;
 }
 
 .portfolio-title {
