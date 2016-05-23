@@ -1,7 +1,7 @@
 a,
 body {
     color: #446844;
-    font-family: 'Kalam', cursive;
+    font-family: "Kalam", cursive;
     font-weight: 300;
 }
 
@@ -24,16 +24,16 @@ hr {
 
 .feature-title {
     padding-left: 15px;
-    color: #8E8F8E;
+    color: #8e8f8e;
 }
 
 .font-normal {
-    font-family: 'Kalam', cursive;
+    font-family: "Kalam", cursive;
     font-weight: 300;
 }
 
 .font-thick {
-    font-family: 'Kalam', cursive;
+    font-family: "Kalam", cursive;
     font-weight: 400;
 }
 
