@@ -35,6 +35,10 @@ hr {
     font-weight: 400;
 }
 
+.modal-img {
+    margin-bottom: 1.5em;
+}
+
 .portfolio-logo {
     max-width: 150px;
     max-height: 150px;

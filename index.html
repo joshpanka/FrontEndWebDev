@@ -8,6 +8,8 @@
     <link href='https://fonts.googleapis.com/css?family=Kalam:400,300' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/main.css">
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
 </head>
 
 <body>
@@ -38,7 +40,7 @@
                 <div class="project-image col-xs-4 col-sm-4 col-md-12 col-lg-12">
                     <picture>
                         <source media="screen and (min-width: 2220px)" srcset="img/portfolio_x2.jpg">
-                            <img class="img-responsive" src="img/portfolio_x1.jpg" alt="Portfolio application photo">
+                            <img class="img-responsive" src="img/portfolio_x1.jpg" alt="Portfolio application photo" data-toggle="modal" data-target="#project1">
                     </picture>
                 </div>
                 <div class="project-description col-xs-8 col-sm-8 col-md-12 col-lg-12">
@@ -55,7 +57,7 @@
                 </div>
                 <div class="project-description col-xs-8 col-sm-8 col-md-12 col-lg-12">
                     <h3 class="project-title font-thick">Project 2</h3>
-                    <a class="project-url" href="https://github.com/udacity/Sunflower/">https://github.com/udacity/Sunflower/</a>
+                    <a class="project-url" href="https://github.com/joshpanka/">https://github.com/joshpanka/</a>
                 </div>
             </div>
             <div class="work col-xs-12 col-sm-12 col-md-4 col-lg-4">
@@ -67,10 +69,35 @@
                 </div>
                 <div class="project-description col-xs-8 col-sm-8 col-md-12 col-lg-12">
                     <h3 class="project-title font-thick">Project 3</h3>
-                    <a class="project-url" href="https://github.com/udacity/Bokeh/">https://github.com/udacity/Bokeh/</a>
+                    <a class="project-url" href="https://github.com/joshpanka/">https://github.com/joshpanka/</a>
                 </div>
             </div>
         </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="project1Label">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title" id="project1Label">Portfolio Project</h4>
+          </div>
+          <div class="modal-body">
+            <div class="project-image col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <picture>
+                    <source media="screen and (min-width: 2220px)" srcset="img/portfolio_x2.jpg">
+                    <img class="img-responsive center-block modal-img" src="img/portfolio_x1.jpg" alt="Portfolio application photo">
+                </picture>
+            </div>
+            <p class="project-description">
+            The portfolio project was created to showcase my personal web development abilities.  The project serves as a landing page for all of my future work.
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
     </div>
 </body>
 
